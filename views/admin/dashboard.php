@@ -2,6 +2,12 @@
 <?php include __DIR__.'/../../database/connection.php'; ?>
 
 <h2>Admin Dashboard</h2>
+
+
+<!-- Add User Button -->
+<a href="./users/add.php" class="btn btn-primary mb-3">Add User</a>
+
+
 <!-- TODO: Display a table of users with options to edit or delete -->
 <!-- Use Bootstrap table classes -->
 <table class="table table-bordered">

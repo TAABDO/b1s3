@@ -8,11 +8,16 @@
 </head>
 <body>
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
         <a class="navbar-brand" href="#">My App</a>
         
         <!-- Navigation Links -->
         <ul class="navbar-nav ml-auto">
+           
+            <li class="nav-item"><a class="nav-link" href="../auth/login.php">Login</a></li>
+            <li class="nav-item"><a class="nav-link" href="../auth/register.php">Register</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Logout</a></li>
+           
             <!-- Check if the user is authenticated -->
             <?php
             // Replace the following condition with your authentication check logic

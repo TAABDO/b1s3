@@ -3,7 +3,7 @@
 <h2>Register</h2>
 <!-- TODO: Add registration form with input fields for username, password, etc. -->
 <!-- Add Bootstrap form classes as needed -->
-<form method="post" action="process_register.php">
+<form method="post" action="../../controllers/auth/register.php">
     <div class="form-group">
         <label for="username">Username:</label>
         <input type="text" class="form-control" name="username" id="username" required>
